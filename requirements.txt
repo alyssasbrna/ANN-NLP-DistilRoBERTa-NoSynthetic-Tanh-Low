@@ -1,0 +1,8 @@
+streamlit==1.26.0
+tensorflow >=2.14.0
+keras >=3.0.0
+sentence-transformers==2.2.2
+huggingface_hub==0.14.1
+scikit-learn
+numpy>=1.19.3,<2
+
