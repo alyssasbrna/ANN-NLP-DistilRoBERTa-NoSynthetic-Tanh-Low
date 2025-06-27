@@ -6,7 +6,7 @@ import pickle
 
 # Load embedding model and ANN classifier
 embedder = SentenceTransformer('sentence-transformers/all-distilroberta-v1')
-ann_model = load_model("ANN-DistilRoBERTa-model.keras")
+ann_model = load_model("ANNlowtanh-DistilRoBERTa-model.keras")
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
